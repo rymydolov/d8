@@ -1,0 +1,25 @@
+uuid: 42347bef-b358-4556-990c-9d5c70b0ac42
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pictures:35ec5ba8-fa98-44ea-b607-4afe1c2f6f16'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: 3pics
+theme: bartik
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:35ec5ba8-fa98-44ea-b607-4afe1c2f6f16'
+settings:
+  id: 'block_content:35ec5ba8-fa98-44ea-b607-4afe1c2f6f16'
+  label: '3 pics'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

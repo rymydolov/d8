@@ -1,0 +1,22 @@
+uuid: 77cc5d4c-2c1d-4bba-adc6-9d91eb820211
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.zobrazennia
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.zobrazennia.body
+field_name: body
+entity_type: block_content
+bundle: zobrazennia
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

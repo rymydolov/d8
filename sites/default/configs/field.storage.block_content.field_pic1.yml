@@ -1,0 +1,30 @@
+uuid: 2bec957f-e57d-4aed-b1dd-0d1526d0d7a3
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - file
+    - image
+id: block_content.field_pic1
+field_name: field_pic1
+entity_type: block_content
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: 77d9d8d3-007b-480f-992d-5974466c7886
+    alt: ''
+    title: ''
+    width: 128
+    height: 90
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

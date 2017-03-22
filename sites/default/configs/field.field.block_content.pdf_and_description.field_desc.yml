@@ -1,0 +1,24 @@
+uuid: 721f29f7-8f92-4988-93c4-cbc0c8ea922b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdf_and_description
+    - field.storage.block_content.field_desc
+  module:
+    - text
+id: block_content.pdf_and_description.field_desc
+field_name: field_desc
+entity_type: block_content
+bundle: pdf_and_description
+label: Desc
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "<p>pdf file description...</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

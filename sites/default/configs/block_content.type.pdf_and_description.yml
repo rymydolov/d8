@@ -1,0 +1,8 @@
+uuid: f64fecec-74c0-4c74-93c8-b8a4cf4fc5a4
+langcode: en
+status: true
+dependencies: {  }
+id: pdf_and_description
+label: 'PDF and Description'
+revision: 0
+description: ''

@@ -1,0 +1,25 @@
+uuid: b9bf9cdf-5493-4cf3-ba72-b147dbc5c48a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pdf_and_description:2eafa884-304a-4a3b-ac76-f7d9b7cfa7ac'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: articles
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:2eafa884-304a-4a3b-ac76-f7d9b7cfa7ac'
+settings:
+  id: 'block_content:2eafa884-304a-4a3b-ac76-f7d9b7cfa7ac'
+  label: Articles
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

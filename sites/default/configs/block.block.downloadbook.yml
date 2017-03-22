@@ -1,0 +1,25 @@
+uuid: 0483b482-f194-45ae-8345-c093caceace4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:block_with_pdf:1e7d5576-18a2-4bbc-8431-09628f40a77f'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: downloadbook
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:1e7d5576-18a2-4bbc-8431-09628f40a77f'
+settings:
+  id: 'block_content:1e7d5576-18a2-4bbc-8431-09628f40a77f'
+  label: Books
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

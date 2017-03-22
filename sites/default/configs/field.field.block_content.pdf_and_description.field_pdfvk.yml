@@ -1,0 +1,27 @@
+uuid: 5e367ed0-62bd-4892-9d42-5ce4e6e01619
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdf_and_description
+    - field.storage.block_content.field_pdfvk
+  module:
+    - file
+id: block_content.pdf_and_description.field_pdfvk
+field_name: field_pdfvk
+entity_type: block_content
+bundle: pdf_and_description
+label: 'PDF File'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

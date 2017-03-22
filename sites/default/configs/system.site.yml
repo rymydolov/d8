@@ -1,0 +1,14 @@
+uuid: b3b0fe95-02c4-46b6-8642-3ce1925a20a7
+name: D8
+mail: k.volodymyr@internetdevels.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

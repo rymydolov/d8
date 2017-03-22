@@ -1,0 +1,8 @@
+uuid: 4205ded0-7f85-4723-a9fe-97330396ffb6
+langcode: en
+status: true
+dependencies: {  }
+id: pictures
+label: Pictures
+revision: 0
+description: ''

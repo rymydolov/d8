@@ -1,0 +1,27 @@
+uuid: d082a2c6-04ee-48d8-a7fc-d294f199dc17
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pictures
+    - field.storage.block_content.field_picture_3
+  module:
+    - file
+id: block_content.pictures.field_picture_3
+field_name: field_picture_3
+entity_type: block_content
+bundle: pictures
+label: 'picture 3'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png jpg jpeg'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

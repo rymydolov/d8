@@ -1,0 +1,25 @@
+uuid: c4b2c459-738b-4a45-b4e7-6f7ccdaf7116
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1abc12d4-cb0a-4ba7-bb70-cf3477a66e4b'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: hoursandlocationblock
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:1abc12d4-cb0a-4ba7-bb70-cf3477a66e4b'
+settings:
+  id: 'block_content:1abc12d4-cb0a-4ba7-bb70-cf3477a66e4b'
+  label: InternetDevels.com
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
