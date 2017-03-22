@@ -1,0 +1,16 @@
+# Ignore configuration files that may contain sensitive information
+sites/*/settings*.php
+
+# Ignore path that contain user-generated content
+sites/*/files
+sites/*/private
+
+sites/vendor/*
+
+INSTALL.txt
+README.txt
+README.down
+web.config
+.idea
+
+.sass-cache
