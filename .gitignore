@@ -5,8 +5,6 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 
-sites/vendor/*
-
 INSTALL.txt
 README.txt
 README.down
@@ -14,3 +12,6 @@ web.config
 .idea
 
 .sass-cache
+
+# VENDOR folder also should be ignored - consist scomposer packages
+vendor/*

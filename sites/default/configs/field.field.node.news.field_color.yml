@@ -1,0 +1,28 @@
+uuid: 7a8a1575-781b-4325-8ab7-720bc0e4b5d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_color
+    - node.type.news
+    - taxonomy.vocabulary.color
+id: node.news.field_color
+field_name: field_color
+entity_type: node
+bundle: news
+label: Color
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      color: color
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: color
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: 034c16dc-ae47-4989-b44f-e9231c4f8a0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_collection
+    - node.type.news
+  module:
+    - field_collection
+id: node.news.field_image_collection
+field_name: field_image_collection
+entity_type: node
+bundle: news
+label: 'image collection'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:field_collection_item'
+  handler_settings: {  }
+field_type: field_collection

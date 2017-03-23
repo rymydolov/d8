@@ -1,0 +1,28 @@
+uuid: d10b95f5-a99c-4fbf-b694-ed0fc19d0db4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_external_links
+    - node.type.blog
+  module:
+    - link
+id: node.blog.field_related_external_links
+field_name: field_related_external_links
+entity_type: node
+bundle: blog
+label: 'Related external links'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'https:/google.com/'
+    title: Google
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

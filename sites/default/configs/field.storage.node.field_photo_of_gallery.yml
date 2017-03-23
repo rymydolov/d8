@@ -1,0 +1,30 @@
+uuid: 507a13ca-0294-4233-ad09-9f2ca6e233ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_photo_of_gallery
+field_name: field_photo_of_gallery
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: b9499cb7-0e96-462e-a912-4557db314ed4
+    alt: 'photo of gallery'
+    title: ''
+    width: 128
+    height: 90
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
